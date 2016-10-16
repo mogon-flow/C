@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>A sample HTML page displaying a car</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/car.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <section id='list'>
+            <h1>Control Panel</h1>
+            <section class='car'>
+
+                <img src="img/dodge.png">
+
+                <!-- subsection specifics -->
+                <section class='specifics'>
+                    <div class='pair'>
+                        <div class='key'>make:</div>
+                        <div class='value'>Dodge</div>
+                    </div>
+                    <div class='pair'>
+                        <div class='key'>model:</div>
+                        <div class='value'>Charger</div>
+                    </div>
+                    <div class='pair'>
+                        <div class='key'>year:</div>
+                        <div class='value'>2010</div>
+                    </div>
+                    <div class='pair'>
+                        <div class='key'>color:</div>
+                        <div class='value'>white</div>
+                    </div>  
+                    <div class='pair'>
+                        <div class='key'>safety:</div>
+                        <div class='value'>5</div>
+                    </div>                
+                </section>
+
+                <!-- subsection speedpanel -->
+                <section class='speedpanel'>Current Speed
+                    <!-- division speed -->
+                    <div class='speed'>
+                        0<span class='mph'>mph</span>
+                    </div> 
+                    <!-- division control buttons -->
+                    <div class='controls'>
+                        <input type='button' value='ACCELERATE'>
+                        <input class='red' type='button' value='BRAKE'>
+                    </div>
+                </section>
+
+            </section>
+        </section>
+
+    </body>
+</html>
