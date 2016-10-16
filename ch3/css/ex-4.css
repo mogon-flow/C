@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body {
+    background-color:#666666;
+    font-family: 'Oswald', 'Futura', sans-serif;
+}
+div {
+    position: absolute;
+    margin: auto;
+    width: 500px;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+}
+p {
+    border-bottom: 1px #F4EBC3 dotted;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 150%;
+}
+p::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/star.png);
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+#stars {  
+    color: #F4EBC3;
+}

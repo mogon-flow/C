@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body {
+    background-color: cadetblue;
+    font-family: 'Oswald', 'Futura', sans-serif;
+}
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    height: 420px;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #F4EBC3;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    border: 10px solid #FFFFFF;
+}
+.b0 {
+    background-image: url(../img/nespresso.jpg);
+}
+.b1 {
+    background-image: url(../img/kinderegg.jpg);
+}
+.b2 {
+    background-image: url(../img/capsule.jpg);
+}
