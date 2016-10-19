@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Wellfleet);
+body {
+    background-color: #523620;
+    color: #fff;
+    font-family: 'Wellfleet', times, serif;
+    font-size: 150%;}
+div {
+    width: 150px;
+    height:150px;
+    margin-left:20px;
+    float: left;
+    text-align: center;
+}
+#square {
+}
+#circle {
+    border-radius: 150px;
+}
+#triangle { 
+    width: 0px; 
+    height: 0px; 
+    border-left: 90px solid transparent; 
+    border-right: 90px solid transparent; 
+    border-bottom: 150px solid #F88379; 
+}
+.yellow{
+    background-color: #fecc6f;
+}
+.white{
+    background-color: #fff;
+    color: #000;
+}

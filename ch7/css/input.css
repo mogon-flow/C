@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body {
+    font-family: 'Oswald', 'Futura', sans-serif;
+    background-color: #403c3b;  
+    color: white;
+}
+section{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    float:left;
+}
+section#control{
+    width: 250px; 
+}
+section#theme{
+    padding-left: 20px;
+}
+legend {
+    color: #70b8ff;
+}
+input, button {
+    width: 110px; height: 20px;
+    font-size: 1.2em; font-family: 'Oswald', 'Futura', sans-serif;
+    margin: 0; margin-top: 5px; 
+}
+button.submit {
+    width: 180px; 
+    height: 40px;
+    border-radius: 5px;
+    margin-left:20px;
+}
+
+.spring {background-color: #009966;    border: 1px #B9D7D9 dotted;}
+.summer {background-color: #70b8ff;    border: 1px white solid;}
+.autumn {background-color: #ffb87a;    border: 1px white solid;}
+.winter {background-color: #666666;    border: 1px white solid;}
+
+div {
+    width: 60px;
+    height: 60px;
+    margin-left:1px;
+    float: left;
+    text-align: center;
+}
+.square {
+}
+.circle {
+    border-radius: 60px;
+}
+.triangle { 
+    width: 0px; 
+    height: 0px; 
+    border-left: 30px solid transparent; 
+    border-right: 30px solid transparent; 
+    border-bottom: 60px solid #F88379; 
+}
+.clear {
+    clear: both;
+}
+.alertmsg {
+    margin:0px;
+    color:yellow;
+    font-size: 0.8em;    
+    display:none;
+}
+#log {
+    height:300px;
+    overflow: auto;
+}
+.log {
+    font-size: 0.7em;
+    font-style: italic;
+    margin:0px;
+}
