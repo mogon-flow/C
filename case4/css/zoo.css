@@ -1,0 +1,100 @@
+/*icon resource: https://www.iconfinder.com/ */
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', 'Futura', sans-serif;
+    background-color: #403c3b;
+}
+header{
+    font-size: 2em;
+    color: #fff;
+    background-color: #d7666b;
+    text-shadow: 2px 2px 1px #914141;
+    border-bottom: 1px solid #914141;
+    text-align: center;
+    padding: 10px;
+}
+#zoo{
+    margin: 0 auto;
+    padding-top: 0px;
+    border-top: 1px solid #fff;
+}
+#alert {
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #6cc0ac;
+    border-bottom: 1px solid #666;
+}
+#alert p{
+    border-bottom: 1px solid #B9D7D9;
+}
+#alert:before{
+    content:"ALERT";
+    padding: 10px;
+    letter-spacing: 2em;
+    background-color: #d7666b;
+}
+section#zoo:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+div#animals{
+    margin: 0 auto;
+    height: auto;
+    padding-top: 20px;
+}
+.animal{
+    display: block;
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 5px; padding:5px;
+    background-size: 100%;
+}
+.cat {background-image: url(../img/cat.png);}
+.camel {background-image: url(../img/camel.png);}
+.crocodile {background-image: url(../img/crocodile.png);}
+.elephant {background-image: url(../img/elephant.png);}
+.hawk {background-image: url(../img/hawk.png);}
+.kangaroo {background-image: url(../img/kangaroo.png);}
+.lion {background-image: url(../img/lion.png);}
+.ostrich {background-image: url(../img/ostrich.png);}
+.panda {background-image: url(../img/panda.png);}
+.sheep {background-image: url(../img/sheep.png);}
+.tiger {background-image: url(../img/tiger.png);}
+.zebra {background-image: url(../img/zebra.png);}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+@media only screen and (max-width: 768px) {
+    /* For tablets: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
