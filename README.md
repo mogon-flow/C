@@ -14,3 +14,6 @@ The book contains twelve chapters covering topics from basic programming concept
 <li>Page 105: in the folder case1
 <li>Page 187: Workout 8-2:Below the line "var start = 1;", add a new statement "var end = 10;".
 </ol>
+
+Copyright and license
+Code and documentation copyright 2016
