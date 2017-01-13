@@ -15,5 +15,6 @@ The book contains twelve chapters covering topics from basic programming concept
 <li>Page 187: Workout 8-2: Replace the line "var start = 1;" with "var end = 10;".
 </ol>
 
-Copyright and license
+<p>Copyright and license. 
 Code and documentation copyright 2016
+</p>
