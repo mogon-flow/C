@@ -1,5 +1,5 @@
 # JavaScript Hands-on Learning: interactive front-end web development 
-<p><a href="http://www.jdatalab.com/" target="_blank"> jDataLab</a></p>
+<p><a href="http://www.jdatalab.com/" target="_blank"> By jDataLab</a></p>
 ![JavaScriptBook-JW](BookCover-screen.png){:class="img-responsive"}
 <h3> <a href="https://www.amazon.com/dp/0998273805/ref=sr_1_1?ie=UTF8&qid=1477092514&sr=8-1&keywords=9780998273808">Available at Amazon</a></h3>
 <p>This full color book provides a concise, practical and problem-oriented guide for JavaScript. Being designed for beginners, no prior programming experience is required except for basic knowledge of HTML and CSS. For anyone who is interested in web programming, this book does not only teach you basic programming concepts through a number of concrete examples, case studies and hands-on exercises, but also makes it easy for you by breaking down each example into steps. The book serves equally well as a text for online web programming classes or for self-study. All source code used in this book is freely accessible for download.
